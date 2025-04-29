@@ -57,22 +57,6 @@ const LoveLetter = () => {
               </div>
             </div>
           </div>
-          
-          <div className="mt-8">
-            <p className="text-lg">Listen to my message for you:</p>
-            <div className="flex justify-center mt-4">
-              <audio 
-                controls 
-                className="w-full max-w-md"
-              >
-                <source src="#" type="audio/mpeg" />
-                Your browser does not support the audio element.
-              </audio>
-              <p className="text-sm text-muted-foreground mt-2">
-                (Record and upload your voice message to replace this placeholder)
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </div>

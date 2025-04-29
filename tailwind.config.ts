@@ -64,9 +64,9 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				romantic: {
-					pink: '#FFDEE2',
-					peach: '#FDE1D3',
-					blue: '#D3E4FD',
+					pink: '#FF92A5',
+					peach: '#FFD0B0',
+					blue: '#B8E2FF',
 					cream: '#FFF9F0',
 					gray: '#F1F0FB'
 				}
@@ -112,6 +112,22 @@ export default {
 						transform: 'scale(1)',
 						opacity: '1'
 					}
+				},
+				'float': {
+					'0%, 100%': {
+						transform: 'translateY(0)'
+					},
+					'50%': {
+						transform: 'translateY(-10px)'
+					}
+				},
+				'heart-beat': {
+					'0%, 100%': {
+						transform: 'scale(1)'
+					},
+					'50%': {
+						transform: 'scale(1.15)'
+					}
 				}
 			},
 			animation: {
@@ -119,13 +135,15 @@ export default {
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'fade-in': 'fade-in 0.6s ease-out',
 				'scale-in': 'scale-in 0.4s ease-out',
+				'float': 'float 3s ease-in-out infinite',
+				'heart-beat': 'heart-beat 1.5s ease-in-out infinite'
 			},
 			fontFamily: {
 				'handwritten': ['Dancing Script', 'cursive'],
 				'sans': ['Poppins', 'sans-serif'],
 			},
 			backgroundImage: {
-				'romantic-gradient': 'linear-gradient(to right, #ee9ca7, #ffdde1)',
+				'romantic-gradient': 'linear-gradient(to right, #FF92A5, #FFD0B0)',
 			}
 		}
 	},

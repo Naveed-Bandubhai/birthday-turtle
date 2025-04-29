@@ -55,6 +55,7 @@
 
   body {
     @apply bg-background text-foreground font-sans;
+    background-image: linear-gradient(to right, rgba(255, 208, 176, 0.1), rgba(255, 146, 165, 0.1));
   }
 
   h1, h2, h3, h4 {
@@ -63,6 +64,11 @@
   
   .memory-card {
     @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+    box-shadow: 0 5px 15px rgba(255, 146, 165, 0.2);
+  }
+  
+  .memory-card:hover {
+    box-shadow: 0 8px 25px rgba(255, 146, 165, 0.3);
   }
   
   .reveal-text {
@@ -96,4 +102,13 @@
   .timeline-item:last-child::after {
     @apply hidden;
   }
+  
+  .heart-icon {
+    @apply animate-heart-beat text-romantic-pink;
+  }
+  
+  .floating-element {
+    @apply animate-float;
+  }
 }
+

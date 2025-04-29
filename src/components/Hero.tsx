@@ -6,8 +6,8 @@ const Hero = () => {
     <div className="relative h-screen flex flex-col items-center justify-center overflow-hidden">
       <div className="absolute inset-0 bg-romantic-gradient opacity-10"></div>
       <div className="z-10 text-center px-4 animate-fade-in">
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 text-romantic-pink">Our Journey Together ❤️</h1>
-        <p className="text-xl md:text-2xl max-w-xl mx-auto mb-8">A collection of our most cherished moments and memories</p>
+        <h1 className="text-5xl md:text-7xl font-bold mb-6 text-romantic-pink">Happy Birthday Madam Gaaru ❤️</h1>
+        <p className="text-xl md:text-2xl max-w-xl mx-auto mb-8">Likitha, you're not just a part of my life, you're my favorite chapter.</p>
         <a 
           href="#timeline" 
           className="inline-block px-8 py-3 rounded-full bg-romantic-pink text-white 
